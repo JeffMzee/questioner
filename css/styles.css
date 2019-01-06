@@ -102,6 +102,15 @@ ul.breadcrumb li a:hover {
 /*---GLOBAL STYLES END---*/
 
 /*---LOGIN FORMS---*/
+.reg-forms{
+  padding: 5px 0 5px 0;
+  display: block;
+}
+.form-field{
+  width: 300px;
+  margin-bottom: 15px;
+}
+
 .login-image .login-banner{
   height: auto;
   text-align: right;

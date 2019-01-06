@@ -5,8 +5,8 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Questioner | Login Page</title>
-    <meta name="description" content=" Questioner user login page.">
+    <title>Questioner | Sign Up Page</title>
+    <meta name="description" content=" Questioner user registration page.">
 
     <link rel="icon" href="img/favicon.ico" type="image/ico">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400,700">
@@ -36,7 +36,7 @@
             <div class="nav-links">
                 <a href="#!">Meetups</a>
                 <a href="#!">Profile</a>
-                <a href="#!"><span style="color: #F9A298; font-weight: 600;">Sign In</span></a>
+                <a href="#!"><span style="color: #F9A298; font-weight: 600;">Sign Up</span></a>
             </div>
         </div>
         <!--</div>-->
@@ -46,7 +46,7 @@
             <div class="column">
                 <ul class="breadcrumb">
                     <li><a href="/index.html">Home</a></li>
-                    <li>Login Page</li>
+                    <li>Sign Up Page</li>
                 </ul>
             </div>
         </div>
@@ -56,11 +56,11 @@
             <div class="one">
                 <div class="welcome">
                     <p>
-                        <h1>Welcome to <span style="color: #FE6F61;">Questioner</span> | Login Page</h1>
+                        <h1>Welcome to <span style="color: #FE6F61;">Questioner</span> | Sign Up Page</h1>
                         <p>Crowd-source questions for a meetup. Questioner helps the meetup organizer prioritize
                             questions to be answered.</p>
                         <hr>
-                        <p>Kindly login using the form below:</p>
+                        <p>Kindly sign up using the form below:</p>
                     </p>
                 </div>
             </div>
@@ -78,15 +78,24 @@
                 <div class="login-form">
                     <form>
                         <legend>
-                            <h2>Login to your account:</h2>
+                            <h2>Sign up for Questioner</h2>
                         </legend>
 
                         <label class="reg-forms">Username:</label>
-                        <input class="form-field" type="text" id="user" name="name" required placeholder="Enter a valid username" />
-                       
+                        <input class="form-field" type="text" id="user" name="name" required placeholder="Pick a unique username" />
+                        
+                        <label class="reg-forms">Email Address:</label>
+                        <input class="form-field" type="email" id="user" name="name" required placeholder="Enter a valid email address" />
+                            
+                        <label class="reg-forms">Confirm Email Address:</label>
+                        <input class="form-field" type="email" id="user" name="name" required placeholder="Confirm your email address" />
+                            
                         <label class="reg-forms">Password:</label>
                         <input class="form-field" type="password" id="password" name="name" required placeholder="Enter your password" />
-                    
+                        
+                        <label class="reg-forms">Confirm Password:</label>
+                        <input class="form-field" type="password" id="password" name="name" required placeholder="Confirm your password again" />
+            
                         <br>
                         <br>
                         <input type="submit" class="button">
@@ -94,20 +103,11 @@
                     </form>
                     <br>
                     <p>
-                        <h5>Forgotten your password? <a href="#!"><span style="color: #FE6F61; text-decoration:none;">Click here</span></a> to reset it.:</h5>
+                        <h5>Already have an account? <a href="#!"><span style="color: #FE6F61; text-decoration:none;">Click here</span></a> to sign in.:</h5>
                         <br>
 
                     </p>
                     <hr>
-                    <br>
-                    <p>
-                        <h4>Don't have an account? Sign up for one instead:</h4>
-                        <br>
-                        <div class="read-more">
-                            <a class="button" href="#!">Sign Up</a>
-                        </div>
-
-                    </p>
                 </div>
             </div>
         </div>
