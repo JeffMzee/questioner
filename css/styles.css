@@ -5,13 +5,14 @@ html {
     font-family: 'Nunito', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    line-height: 1.6; /*cards*/
+    line-height: 1.6; /*Golden Ratio*/
   }
   
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-  
+  *, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+
+
   body, h1, h2, h3, h4, h5, h6, p, ol, ul {
     margin: 0;
     padding: 0;
@@ -55,6 +56,48 @@ html {
     flex: 1;
   }
 }
+/*---Welcome Banner---*/
+.welcome{
+  padding: 0 0 0 30px;
+}
+
+/*---Jack and Jill---*/
+
+ul.breadcrumb {
+  list-style: none;
+  text-decoration: none;
+  padding: 0 0 0 5px;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 13px;
+}
+ul.breadcrumb li+li:before {
+  color:#222222;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #FE6F61;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #FE6F61;
+  text-decoration: line;
+}
+
+.footer{
+  height: 70px;
+  width: 100%;
+  background-color: #42818C;
+  position: relative;
+  padding: 10px; 
+}
+
+.footer a {
+  padding: 10px 10px 10px 10px;
+  color: #efefef;
+  text-decoration: none;
+}
 
 /*---GLOBAL STYLES END---*/
 
@@ -82,7 +125,7 @@ html {
 }
 
 .card a {
-    color: #E76C67;
+    color: #FE6F61;
     text-decoration: none;
 }
 
@@ -90,7 +133,14 @@ html {
   margin: 0 0 15px;
   font-weight: 700;
   font-size: 1.25rem;
-  color: #E76C67;
+  color: #FE6F61;
+}
+
+.subtitle-date {
+  margin: 0 0;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #FE6F61;
 }
 
 .card-content {
@@ -117,8 +167,8 @@ html {
 .card .button {
   display: block;
   font-size: 1rem;
-  background: #E76C67;
-  border: 1px solid #E76C67;
+  background: #FE6F61;
+  border: 1px solid #FE6F61;
   padding: .75rem 1rem;
   color: white;
   text-decoration: none;
@@ -128,8 +178,8 @@ html {
 
 .button:hover,
 .button:focus {
-  background: darken(#E76C67, 10%);
-  border: 1px solid darken(#E76C67, 10%);
+  background: darken(#FE6F61, 10%);
+  border: 1px solid darken(#FE6F61, 10%);
 }
 
 .options a {
@@ -156,7 +206,7 @@ html {
 .nav {
   height: 50px;
   width: 100%;
-  background-color: #4d4d4d;
+  background-color: #42818C;
   position: relative;
   z-index: 99999; /*Absurd solution to nav bar remaining on top in mobile drop down. SMH*/
 }
