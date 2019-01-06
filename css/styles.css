@@ -100,6 +100,21 @@ ul.breadcrumb li a:hover {
   text-decoration: none;
 }
 
+.spanner-orange{
+  color: #FE6F61;
+}
+
+.spanner-green{
+  color: #42818C;
+  font-weight: 600;
+}
+
+#spanner-menu-pointer{
+  color: #FE6F61;
+  font-weight: 600;
+
+}
+
 /*---GLOBAL STYLES END---*/
 
 /*---LOGIN FORMS---*/
@@ -154,7 +169,20 @@ margin: 0 0 30px;
 .deets{
   padding: 5px 0 5px 0;
 }
+
+.top-questions-feed{
+  padding: 15px 7.5px 20px 7.5px;
+  background-color: #FFFAE1;
+  margin-bottom: 10px;
+}
+.top-questions-feed a {
+  text-decoration: none;
+
+}
+
 /*---USER STATS END---*/
+
+
 
 /*---The Home Page Meetup Cards---*/
 
