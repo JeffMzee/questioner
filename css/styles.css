@@ -102,6 +102,12 @@ ul.breadcrumb li a:hover {
 /*---GLOBAL STYLES END---*/
 
 /*---LOGIN FORMS---*/
+.login-image .login-banner{
+  height: auto;
+  text-align: right;
+  padding-left: 50px;
+}
+
 .login-form legend {
 margin: 0 0 30px;
 }
