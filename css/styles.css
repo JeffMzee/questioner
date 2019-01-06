@@ -58,6 +58,7 @@ html {
 }
 /*---Welcome Banner---*/
 .welcome{
+  margin-top: -10px;
   padding: 0 0 0 30px;
 }
 
@@ -139,6 +140,21 @@ margin: 0 0 30px;
 }
 
 /*---LOGIN END---*/
+
+/*---USER STATS---*/
+.user-info-area{
+  padding-bottom: 15px;
+}
+
+.user-stats img{
+  width: 200px;
+  height: 200px;
+}
+
+.deets{
+  padding: 5px 0 5px 0;
+}
+/*---USER STATS END---*/
 
 /*---The Home Page Meetup Cards---*/
 
