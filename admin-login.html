@@ -92,12 +92,12 @@
                     
                         <br>
                         <br>
-                        <input type="submit" class="button">
+                        <input type="submit" class="form-button" id="enterAdminPage">
 
                     </form>
                     <br>
                     <p>
-                        <h5>Forgotten your password? <a href="#!"><span style="color: #FE6F61; text-decoration:none;">Click here</span></a> to reset it.:</h5>
+                        <h5>Forgotten your password? <a class="spanner-orange" href="passwordreset.html">Click here</a> to reset it.:</h5>
                         <br>
 
                     </p>
@@ -128,5 +128,9 @@
     </div>
 
 </body>
-
+<script type="text/javascript">
+    document.getElementById("enterAdminPage").onclick = function () {
+        location.href = "admin.html";
+    };
+</script>
 </html>
