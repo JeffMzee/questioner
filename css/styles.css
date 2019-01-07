@@ -220,6 +220,23 @@ padding: 12px;
 
 }
 
+.comments-feed{
+  margin-top: -50px;
+  margin-left: 30px;
+  padding: 0 7.5px 20px 7.5px;
+  background-color: #FFFAF8;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+#inline-comment{
+  margin-left: 60px;
+}
+
+.comments-feed a {
+  text-decoration: none;
+}
+
 /*---USER STATS END---*/
 
 
