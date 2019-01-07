@@ -241,7 +241,17 @@ padding: 12px;
 
 /*---ADMIN---*/
 .events-admin{
-  
+
+}
+
+.img-upload{
+  width: 100%;
+  padding: 7.5px 15px;
+}
+
+#event-image{
+  width: 100%;
+  height: auto;
 }
 /*---ADMIN END---*/
 
