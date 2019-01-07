@@ -18,7 +18,6 @@
     <div class="container">
 
         <!--Responsive Navigation Bar-->
-        <!--<div class="row">-->
         <div class="nav">
             <div class="nav-header">
                 <div class="nav-title">
@@ -34,9 +33,9 @@
             </div>
             <input type="checkbox" id="nav-check">
             <div class="nav-links">
-                <a href="event-page.html">Meetups</a>
+                <a href="index.html">Meetups</a>
                 <a href="user-profile.html">Profile</a>
-                <a class="spanner-orange" href="login.html">Sign Up</span></a>
+                <a class="spanner-orange" href="login.html">Sign Up</a>
             </div>
         </div>
         <!--</div>-->
@@ -76,17 +75,17 @@
 
             <div class="column">
                 <div class="login-form">
-                    <form>
+                    <form id="user-login-form">
                         <legend>
                             <h2>Login to your account:</h2>
                         </legend>
 
                         <label class="reg-forms">Username:</label>
                         <input class="form-field" type="text" id="user" name="name" required placeholder="Enter a valid username" />
-                       
+
                         <label class="reg-forms">Password:</label>
                         <input class="form-field" type="password" id="password" name="name" required placeholder="Enter your password" />
-                    
+
                         <br>
                         <br>
                         <input type="submit" class="button">
@@ -94,7 +93,8 @@
                     </form>
                     <br>
                     <p>
-                        <h5>Forgotten your password? <a href="passwordreset.html"><span class="spanner-orange">Click here</span></a> to reset it.:</h5>
+                        <h5>Forgotten your password? <a class="spanner-orange" href="passwordreset.html"> Click here
+                            </a> to reset it.:</h5>
                         <br>
 
                     </p>
@@ -117,7 +117,7 @@
         <div class="row">
             <div class="column">
                 <div class="footer">
-                    <a href="admin-login.html">Admin Login</a>
+                    <a class="form-button" href="admin-login.html">Admin Login</a>
                 </div>
             </div>
         </div>
