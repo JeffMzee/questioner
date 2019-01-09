@@ -1,0 +1,137 @@
+<!doctype html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Questioner | Admin Edit Meetup Page</title>
+    <meta name="description" content=" Questioner Admin Page - Edit Meetups.">
+
+    <link rel="icon" href="img/favicon.ico" type="image/ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400,700">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <!--Responsive Navigation Bar-->
+        <!--<div class="row">-->
+        <div class="nav">
+            <div class="nav-header">
+                <div class="nav-title">
+                    Questioner
+                </div>
+            </div>
+            <div class="nav-btn">
+                <label for="nav-check">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </div>
+            <input type="checkbox" id="nav-check">
+            <div class="nav-links">
+                <a href="index.html">Meetups</a>
+                <a href="user-profile.html">Profile</a>
+                <a href="login.html">User Login</a>
+                <a href="signup.html">User Sign Up</a>
+
+                <a id="spanner-menu-pointer" href="#!">Admin</a>
+            </div>
+        </div>
+        <!--</div>-->
+
+        <!--INSERT Breadcrumbs HERE-->
+        <div class="row">
+            <div class="column">
+                <ul class="breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li>Admin</li>
+                </ul>
+            </div>
+        </div>
+
+        <!--Welcome Banner-->
+        <div class="row">
+            <div class="one">
+                <div class="welcome">
+                    <p>
+                        <h1 class="spanner-orange"> Admin Page | Edit Meetup</h1>
+                        <p>This page allows you to edit a meetup.</p>
+                        <hr>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                    <div class="user-info">
+
+                            <div class=user-stats>
+                                <img id="event-image" src="img/event-image.jpg" alt="User Profile Icon">
+                                <form>
+                                    <label class="reg-forms">Upload pictures for your meetup. The first image will be used as the cover image.</label>
+                                    <label></label>
+                                    <p class="orange-spanner">event_image_1.jpg</p>
+                                    <input class="img-upload" type="file">
+                                    <p class="orange-spanner">event_image_2.jpg</p>
+                                    <input class="img-upload" type="file">
+                                    <p class="orange-spanner">event_image_3.jpg</p>
+                                    <input class="img-upload" type="file">
+                                    <p class="orange-spanner">event_image_4.jpg</p>
+                                    <input class="img-upload" type="file">
+                                    <p class="orange-spanner">event_image_5.jpg</p>
+                                    <input class="img-upload" type="file">
+                                    <input type="submit" class="form-button">
+                                </form>
+                            </div>
+                        </div>
+            </div>
+            <div class="column">
+                <div class="login-form">
+                    <form>
+                        <legend>
+                            <h2>Edit <span class="spanner-orange">Mortal Kombat X</span> Meetup</h2>
+                        </legend>
+
+                        <label for="title" class="reg-forms"><span class="spanner-orange">Mortal Kombat X Tournament:</span></label>
+                        <input class="form-field-ques" type="text" id="title" name="enterTitle" required placeholder="What is the new name of this meetup?" />
+
+                        <label for="location" class="reg-forms"><span class="spanner-orange">Prestige Plaza Cinema Hall:</span></label>
+                        <input class="form-field-ques" type="text" id="location" name="enterLocation" required placeholder="Where is the new location of the meetup?" />
+
+                        <label for="date" class="reg-forms"><span class="spanner-orange">11 Feb 2019</span></label>
+                        <input class="form-field-ques" type="date" id="date" name="enterDate" required placeholder="Pick a new date" />
+
+                        <label for="tags" class="reg-forms"><span class="spanner-orange">gaming, tournament, mortal kombat</label>
+                        <input class="form-field-ques" type="tags" id="tags" name="enterTags" required placeholder="Modify tags, comma-separated" />
+
+                        <label for="description" class="reg-forms"><span class="spanner-orange">Lorem ipsum dolor sit amet, consectetur..</label>
+                        <textarea id="description" name="enterDescription" class="form-field-area" required placeholder="Provide some details about this meetup."></textarea>
+                        <br>
+                        <br>
+                        <input type="submit" class="form-button">
+
+                    </form>
+                    <br>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <!--Footer Section-->
+        <div class="row">
+            <div class="column">
+                <div class="footer">
+                    <a href="admin-login.html">Admin Login</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
